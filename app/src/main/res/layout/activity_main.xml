@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF6347"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="182dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="#008000"
+                android:gravity="center|center_horizontal"
+                android:text="Hello, This is Victor Android App. "
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="151dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:background="#A5D5EC"
+                android:gravity="center"
+                android:text="Here are some images of my school" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/valleyview" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/valleyturf" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="Toast"
+                android:text="Click here for a surprise"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="Log"
+                android:text="Click here to get message"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="151dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#008000"
+                android:gravity="center"
+                android:text="Victor's favorite things"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="151dp"
+                android:layout_height="162dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#A5D5EC"
+                android:gravity="center"
+                android:text="Soccer, Video Games, Wathcing TV, wathcing documetaries on peoples lifes, and eating"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/soccer" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/food" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
